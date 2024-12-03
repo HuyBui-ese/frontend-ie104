@@ -1,0 +1,57 @@
+/* Menu.module.css */
+
+/* Toàn bộ menu */
+.menu {
+    width: 100%;
+    background-color: transparent;  /* Màu nền của menu */
+    border: none;  /* Bỏ viền */
+    line-height: 36px;
+
+    transition: all 0.1s ease-in-out;
+}
+
+:global(.ant-menu-item) {
+    font-size: 1rem !important;
+    font-weight: 600;
+    color: white !important;
+    padding: 0 2rem !important;
+}
+
+/* Điều chỉnh icon của menu*/
+.menu .ant-menu-item-icon {
+    color: white;  /* Màu của icon trong menu */
+}
+
+/* Màu sắc của item được chọn (active) */
+:global(.ant-menu-item-selected) {
+    background-color: #ff9900 !important;  /* Màu nền khi item được chọn */
+
+}
+
+/* Khi di chuột vào item trong menu */
+.menu .menuItem:hover {
+    background-color: #ff9900 !important;  /* Màu nền khi hover */
+    color: white;  /* Màu chữ khi hover */
+}
+
+/* ================================================================== */
+/* Mobile */
+/* ================================================================== */
+/* Drawer */
+:global(.ant-drawer-header) {
+    background-color: #0066cc !important;
+    color: #fff !important;
+    padding: 1rem !important;
+}
+
+:global(.ant-drawer-content) {
+    background-color: #161d26 !important;
+}
+:global(.ant-drawer-body) {
+    padding: 1rem !important;
+}
+
+/* Menu Item */
+.menu .menuItem {
+    border-radius: 3px !important;
+}

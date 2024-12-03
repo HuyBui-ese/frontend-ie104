@@ -1,0 +1,107 @@
+.container {
+
+}
+
+.pageContentContainer {
+    width: 100%;
+    margin-bottom: 4rem
+}
+
+/* CSS for News */
+.newsContainer {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.mainNews {
+    flex: 4; /* Tăng tỉ lệ để chiếm 3/5 chiều ngang */
+    display: flex;
+    flex-direction: column;
+}
+
+.mainNewsImage {
+    position: relative;
+}
+
+.mainNewsImage img {
+    width: 100%;
+    height: 200px; /* Giảm chiều cao hình ảnh */
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.badge {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #ff9900;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.mainNewsContent {
+    padding: 10px;
+}
+
+.mainNewsContent h2 {
+    font-size: 1.25rem; /* Giảm font-size */
+    margin: 0;
+    color: #222;
+}
+
+.mainNewsContent p {
+    margin: 10px 0;
+    color: #666;
+}
+
+.metaInfo {
+    font-size: 0.9rem;
+    color: #999;
+}
+
+.secondaryNews {
+    flex: 3; /* Giảm tỉ lệ để chiếm 2/5 chiều ngang */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.newsItem {
+    display: flex;
+    gap: 10px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.newsItem:last-child {
+    border-bottom: none;
+}
+
+.newsImage img {
+    width: 140px;
+    height: 90px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.newsContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.newsContent h3 {
+    font-size: 1.1rem;
+    margin: 0;
+    color: #222;
+}
+
+.newsContent .metaInfo {
+    font-size: 0.9rem;
+    color: #999;
+}
+

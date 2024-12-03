@@ -1,0 +1,37 @@
+/* Header.module.css */
+
+/* Header Layout */
+.header {
+    display: flex;
+    flex-direction: column;
+}
+
+.headerTop {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 60px;
+    background-color: #161d26;
+}
+/* Row có thể có padding để tạo khoảng cách */
+.headerTop .ant-row {
+    margin-bottom: 10px; /* Thêm margin giữa các row để tránh chồng lấn */
+}
+
+.headerMenu {
+    width: 100%;
+    background-color: #2d3b4E;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.logo img {
+    width: auto;
+    height: 2.6rem;
+}
+
+

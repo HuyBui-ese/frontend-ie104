@@ -1,0 +1,13 @@
+.bannerContainer {
+    position: relative; /* Đặt phần tử cha ở vị trí tương đối */
+}
+
+.buttonBuyNow {
+    position: absolute; /* Đặt phần tử này ở vị trí tuyệt đối */
+    top: 370px;
+    left: 151px;
+    width: 193px;
+    height: 40px;
+    background-color: #ff9900;
+    z-index: 2; /* Chỉ số cao hơn -> xếp chồng lên trên */
+}

@@ -1,0 +1,64 @@
+.categoryCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgba(221, 221, 221, 0.4);
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 1em 5em;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.categoryCard:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.categoryCard .image {
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    width: 100%;
+}
+.categoryCard .title {
+    font-size: 1.1rem;
+    font-weight: bold;
+    letter-spacing: 0.06em;
+    text-align: center;
+}
+
+/* Responsive cho từng kích thước màn hình */
+@media (max-width: 1440px) {
+    .categoryCard .title {
+        font-size: 1rem;
+        letter-spacing: 0.04em;
+    }
+}
+
+@media (max-width: 1200px) {
+    .categoryCard {
+        padding: 1em 4em;
+    }
+
+    .categoryCard .image img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 995px) {
+    .categoryCard {
+        padding: 1em 3em;
+    }
+}
+
+@media (max-width: 768px) {
+
+}
+
+@media (max-width: 576px) {
+
+}
